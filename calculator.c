@@ -14,6 +14,13 @@ void calcAddition() {
 // 2. Subtraction
 // 3. Multiplication
 // 4. Division
+void calcDivision() {
+    printf("\nEnter two numbers: \n");
+    int a, b;
+    scanf("%d%d", &a, &b);
+    int result = a/b;
+    printf("The ans %d\n", result);
+}
 // 5. Exponentiation
 
 // 6. Sine
